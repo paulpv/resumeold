@@ -1,0 +1,6 @@
+*.userprefs
+Android/obj
+packages
+Android/bin
+iOS/bin
+iOS/obj
