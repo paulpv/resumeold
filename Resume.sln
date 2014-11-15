@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume.iOS", "iOS\Resume.iO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume.Android", "Android\Resume.Android.csproj", "{007520BB-5DA0-4183-9AD4-394D049B195F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1C68928-B315-4B63-8077-7BA1C2DCC6DD}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -52,7 +57,9 @@ Global
 		{C0AE0A53-5CA5-4EAA-B442-E4F380E0C389}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{C0AE0A53-5CA5-4EAA-B442-E4F380E0C389}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = iOS\Resume.iOS.csproj
+		StartupItem = Android\Resume.Android.csproj
 	EndGlobalSection
 EndGlobal
