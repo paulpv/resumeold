@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Resume", "Resume.shproj", "{01C19B5A-28CB-4716-ADA6-9C634105CFFB}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Resume.Shared", "Resume.Shared.shproj", "{01C19B5A-28CB-4716-ADA6-9C634105CFFB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume.iOS", "iOS\Resume.iOS.csproj", "{C0AE0A53-5CA5-4EAA-B442-E4F380E0C389}"
 EndProject
