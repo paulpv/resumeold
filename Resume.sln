@@ -59,7 +59,4 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Android\Resume.Android.csproj
-	EndGlobalSection
 EndGlobal

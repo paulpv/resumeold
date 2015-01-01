@@ -9,6 +9,7 @@ using Android.Widget;
 using Android.OS;
 
 using Xamarin.Forms.Platform.Android;
+using Xamarin.Forms;
 
 
 namespace Resume.Android
@@ -20,9 +21,9 @@ namespace Resume.Android
         {
             base.OnCreate(bundle);
 
-            Xamarin.Forms.Forms.Init(this, bundle);
+            Forms.Init(this, bundle);
 
-            SetPage(App.GetMainPage());
+            SetPage(Resume.Shared.App.RootPage);
         }
     }
 }
