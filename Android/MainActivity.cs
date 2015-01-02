@@ -14,7 +14,7 @@ using Xamarin.Forms;
 
 namespace Resume.Android
 {
-    [Activity(Label = "Resume.Android.Android", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Paul Peavyhouse", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : AndroidActivity
     {
         protected override void OnCreate(Bundle bundle)
