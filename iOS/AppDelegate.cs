@@ -6,41 +6,41 @@ using Xamarin.Forms;
 
 namespace Resume.iOS
 {
-    // The UIApplicationDelegate for the application. This class is responsible for launching the
-    // User Interface of the application, as well as listening (and optionally responding) to
-    // application events from iOS.
-    [Register("AppDelegate")]
-    public partial class AppDelegate : UIApplicationDelegate
-    {
-        UIWindow window;
-        Page page;
+	// The UIApplicationDelegate for the application. This class is responsible for launching the
+	// User Interface of the application, as well as listening (and optionally responding) to
+	// application events from iOS.
+	[Register ("AppDelegate")]
+	public partial class AppDelegate : UIApplicationDelegate
+	{
+		UIWindow window;
+		Page page;
 
         //
-        // This method is invoked when the application has loaded and is ready to run. In this
-        // method you should instantiate the window, load the UI into it and then make the window
-        // visible.
-        //
-        // You have 17 seconds to return from this method, or iOS will terminate your application.
-        //
+		// This method is invoked when the application has loaded and is ready to run. In this
+		// method you should instantiate the window, load the UI into it and then make the window
+		// visible.
+		//
+		// You have 17 seconds to return from this method, or iOS will terminate your application.
+		//
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
-        {
-            window = new UIWindow(UIScreen.MainScreen.Bounds);
+		{
+			window = new UIWindow (UIScreen.MainScreen.Bounds);
 
-            UINavigationBar.Appearance.SetTitleTextAttributes(new UITextAttributes()
-            {
-                TextColor = UIColor.White
-            });
+			UINavigationBar.Appearance.SetTitleTextAttributes(new UITextAttributes()
+				{
+					TextColor = UIColor.White
+				});
 
-            Forms.Init();
+			Forms.Init();
 
             page = Resume.Shared.App.RootPage;
 
-            window.RootViewController = page.CreateViewController();
-
-            window.MakeKeyAndVisible();
-
-            return true;
-        }
+			window.RootViewController = page.CreateViewController ();
+			
+			window.MakeKeyAndVisible();
+			
+			return true;
+		}
 
         //
         // This method is invoked when the application is about to move from active to inactive state.
@@ -67,6 +67,6 @@ namespace Resume.iOS
         public override void WillTerminate(UIApplication application)
         {
         }
-    }
+	}
 }
 

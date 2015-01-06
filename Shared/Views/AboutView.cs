@@ -5,18 +5,18 @@ namespace Resume.Shared
 {
 	public class AboutView : BaseView
 	{
-		public AboutView()
+		public AboutView ()
 		{
 			var stack = new StackLayout {
 				Orientation = StackOrientation.Vertical,
 				Spacing = 10
 			};
 
-			var image = new Image();
-			image.Source = ImageSource.FromFile ("pv_batman.png");
+			var image = new Image ();
+			image.Source = ImageSource.FromFile ("pv_batman.jpg");
 			image.Aspect = Aspect.AspectFill;
 
-			stack.Children.Add(image);
+			stack.Children.Add (image);
 
 			var stack2 = new StackLayout {
 				Orientation = StackOrientation.Vertical,
@@ -26,7 +26,7 @@ namespace Resume.Shared
 			};
 
 			var about = new Label {
-				Font = Font.SystemFontOfSize (NamedSize.Medium),
+                FontSize = Font.SystemFontOfSize(NamedSize.Medium).FontSize,
 				Text = "My name is Paul Peavyhouse...",
 				LineBreakMode = LineBreakMode.WordWrap
 			};

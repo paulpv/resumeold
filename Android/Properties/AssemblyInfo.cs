@@ -10,7 +10,7 @@ using Android.App;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("pv")]
+[assembly: AssemblyCopyright("pv@swooby.com")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

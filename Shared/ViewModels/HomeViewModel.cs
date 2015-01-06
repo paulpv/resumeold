@@ -10,13 +10,12 @@ namespace Resume.Shared
 	public class HomeViewModel : BaseViewModel
 	{
 		public ObservableCollection<HomeMenuItem> MenuItems { get; set; }
-
-		public HomeViewModel()
+		public HomeViewModel ()
 		{
 			CanLoadMore = true;
-			Title = "Paul Peavyhouse";
+            Title = "Resume";
 			MenuItems = new ObservableCollection<HomeMenuItem> ();
-			MenuItems.Add(new HomeMenuItem {
+			MenuItems.Add (new HomeMenuItem {
 				Id = 0, Title = "About", MenuType = MenuType.About,  Icon = "about.png"
 			});
 		}
