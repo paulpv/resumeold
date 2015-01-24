@@ -36,7 +36,11 @@ namespace Resume.Shared
 
 			stack2.Children.Add(about);
 
-			stack.Children.Add(new ScrollView { VerticalOptions = LayoutOptions.FillAndExpand, Content = stack2 });
+			stack.Children.Add(new ScrollView
+            {
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                Content = stack2,
+            });
 
 			Content = stack;
 		}
